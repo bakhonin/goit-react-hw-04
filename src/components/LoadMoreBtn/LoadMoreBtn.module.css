@@ -1,0 +1,23 @@
+.btnLoadMore {
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 30px;
+  color: white;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btnLoadMore:hover,
+.btnLoadMore:focus {
+  background-color: #404bbf;
+  -webkit-box-shadow: 8px 8px 7px -8px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 7px -8px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 7px -8px rgba(66, 68, 90, 1);
+}
